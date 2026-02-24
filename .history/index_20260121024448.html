@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Casa Rural JORCANVI - Tu refugio sostenible en Asturias. Productos locales, cero plásticos, experiencias auténticas.">
+    <meta name="keywords" content="casa rural, Asturias, turismo sostenible, Oviedo, alojamiento rural">
+    <title>Casa Rural JORCANVI - Turismo Sostenible en Asturias</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navegación -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>JORCANVI</span>
+                </div>
+                
+                <!-- Menú Desktop -->
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio" class="nav-link active"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="#galeria" class="nav-link"><i class="fas fa-images"></i> Galería</a></li>
+                    <li><a href="#reservas" class="nav-link"><i class="fas fa-calendar"></i> Reservas</a></li>
+                    <li><a href="#contacto" class="nav-link"><i class="fas fa-phone"></i> Contacto</a></li>
+                </ul>
+
+                <!-- Botón hamburguesa móvil -->
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Casa Rural JORCANVI</h1>
+            <p class="hero-subtitle">Tu refugio sostenible en el corazón de Asturias</p>
+            <a href="#reservas" class="btn btn-primary">Reservar Ahora</a>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section class="caracteristicas">
+        <div class="container">
+            <h2 class="section-title">¿Por qué elegir JORCANVI?</h2>
+            <div class="caracteristicas-grid">
+                <div class="caracteristica-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>100% Sostenible</h3>
+                    <p>Productos locales y política de cero plásticos</p>
+                </div>
+                <div class="caracteristica-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Trato Cercano</h3>
+                    <p>Atención personalizada y familiar</p>
+                </div>
+                <div class="caracteristica-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Experiencias Únicas</h3>
+                    <p>Rutas y actividades locales auténticas</p>
+                </div>
+                <div class="caracteristica-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Comunidad</h3>
+                    <p>Activos en redes sociales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2 class="section-title">Nuestra Galería</h2>
+            
+            <!-- Filtros -->
+            <div class="filtros">
+                <button class="filtro-btn active" data-filter="todos">Todos</button>
+                <button class="filtro-btn" data-filter="interior">Interior</button>
+                <button class="filtro-btn" data-filter="exterior">Exterior</button>
+                <button class="filtro-btn" data-filter="servicios">Servicios</button>
+            </div>
+
+            <!-- Grid de imágenes -->
+            <div class="galeria-grid" id="galeriaGrid">
+                <!-- Las imágenes se cargan dinámicamente desde galeria.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservas -->
+    <section id="reservas" class="reservas">
+        <div class="container">
+            <h2 class="section-title">Calendario de Disponibilidad</h2>
+            
+            <div class="reservas-contenido">
+                <div class="calendario-card">
+                    <div class="calendario-header">
+                        <h3>Febrero 2026</h3>
+                        <div class="leyenda">
+                            <div class="leyenda-item">
+                                <span class="color-libre"></span> Libre
+                            </div>
+                            <div class="leyenda-item">
+                                <span class="color-ocupado"></span> Ocupado
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="calendario" id="calendario">
+                        <!-- El calendario se genera dinámicamente -->
+                    </div>
+                </div>
+
+                <div class="reservas-cta">
+                    <h3>¿Quieres reservar?</h3>
+                    <p>Llámanos directamente o envíanos un WhatsApp</p>
+                    <div class="botones-contacto">
+                        <a href="tel:+34618312270" class="btn btn-primary">
+                            <i class="fas fa-phone"></i> Llamar: +34 618 312 270
+                        </a>
+                        <a href="https://wa.me/34618312270" class="btn btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            
+            <div class="contacto-grid">
+                <!-- Información -->
+                <div class="contacto-info">
+                    <h3>Información de Contacto</h3>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Teléfono</strong>
+                            <a href="tel:+34618312270">+34 878 901 234</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:info@jorcanvi.com">info@jorcanvi.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Dirección</strong>
+                            <p>Oviedo, Asturias, España</p>
+                        </div>
+                    </div>
+
+                    <div class="redes-sociales">
+                        <h4>Síguenos en redes</h4>
+                        <div class="social-icons">
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mapa -->
+                <div class="contacto-mapa">
+                    <h3>¿Dónde estamos?</h3>
+                    <div class="mapa-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Mapa de Google Maps</p>
+                        <small>Oviedo, Asturias</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>¿Listo para tu escapada?</h2>
+            <p>Descubre la tranquilidad de la naturaleza asturiana con todas las comodidades</p>
+            <a href="#contacto" class="btn btn-primary">Contactar Ahora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>JORCANVI</span>
+                </div>
+                <p>Casa Rural Sostenible - Asturias</p>
+                <p class="footer-copy">© 2026 JORCANVI Digital. Proyecto Intermodular 1º DAW - IES Monte Naranco</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/34618312270" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+{
+  "galeria": [
+    {
+      "id": 1,
+      "titulo": "Salón principal",
+      "descripcion": "Amplio salón con chimenea y vistas a la montaña",
+      "categoria": "interior",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+      "alt": "Salón principal de la casa rural con chimenea"
+    },
+    {
+      "id": 2,
+      "titulo": "Dormitorio doble",
+      "descripcion": "Habitación acogedora con cama de matrimonio",
+      "categoria": "interior",
+      "url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800",
+      "alt": "Dormitorio doble con decoración rústica"
+    },
+    {
+      "id": 3,
+      "titulo": "Cocina equipada",
+      "descripcion": "Cocina completamente equipada con electrodomésticos modernos",
+      "categoria": "interior",
+      "url": "https://images.unsplash.com/photo-1556912173-46c336c7fd55?w=800",
+      "alt": "Cocina moderna totalmente equipada"
+    },
+    {
+      "id": 4,
+      "titulo": "Vista montañas",
+      "descripcion": "Impresionantes vistas de los Picos de Europa",
+      "categoria": "exterior",
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+      "alt": "Vista panorámica de las montañas asturianas"
+    },
+    {
+      "id": 5,
+      "titulo": "Jardín trasero",
+      "descripcion": "Amplio jardín con zona de descanso",
+      "categoria": "exterior",
+      "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
+      "alt": "Jardín privado con césped natural"
+    },
+    {
+      "id": 6,
+      "titulo": "Piscina",
+      "descripcion": "Piscina exterior climatizada (temporada verano)",
+      "categoria": "exterior",
+      "url": "https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=800",
+      "alt": "Piscina exterior con tumbonas"
+    },
+    {
+      "id": 7,
+      "titulo": "Barbacoa",
+      "descripcion": "Zona de barbacoa con mesas para disfrutar al aire libre",
+      "categoria": "servicios",
+      "url": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800",
+      "alt": "Área de barbacoa con parrilla y mesas"
+    },
+    {
+      "id": 8,
+      "titulo": "Zona relax",
+      "descripcion": "Espacio de descanso con hamacas y vistas",
+      "categoria": "servicios",
+      "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800",
+      "alt": "Zona de relax con hamacas"
+    },
+    {
+      "id": 9,
+      "titulo": "Baño completo",
+      "descripcion": "Baño moderno con ducha de hidromasaje",
+      "categoria": "interior",
+      "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800",
+      "alt": "Baño completo con acabados modernos"
+    },
+    {
+      "id": 10,
+      "titulo": "Terraza",
+      "descripcion": "Terraza con mobiliario de exterior",
+      "categoria": "exterior",
+      "url": "https://images.unsplash.com/photo-1600047509358-9dc75507daeb?w=800",
+      "alt": "Terraza exterior con mesas y sillas"
+    },
+    {
+      "id": 11,
+      "titulo": "Zona de juegos",
+      "descripcion": "Área infantil con juegos para los más pequeños",
+      "categoria": "servicios",
+      "url": "https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=800",
+      "alt": "Zona de juegos para niños"
+    },
+    {
+      "id": 12,
+      "titulo": "Chimenea",
+      "descripcion": "Chimenea de leña para las noches de invierno",
+      "categoria": "interior",
+      "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800",
+      "alt": "Chimenea de leña encendida"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "todos",
+      "nombre": "Todas",
+      "descripcion": "Ver todas las imágenes"
+    },
+    {
+      "id": "interior",
+      "nombre": "Interior",
+      "descripcion": "Espacios interiores de la casa"
+    },
+    {
+      "id": "exterior",
+      "nombre": "Exterior",
+      "descripcion": "Jardines, piscina y vistas"
+    },
+    {
+      "id": "servicios",
+      "nombre": "Servicios",
+      "descripcion": "Barbacoa, zona de juegos, relax"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "fecha_actualizacion": "2026-01-21",
+    "total_imagenes": 12,
+    "autor": "Equipo JORCANVI Digital",
+    "proyecto": "Proyecto Intermodular DAW1B"
+  }
+}

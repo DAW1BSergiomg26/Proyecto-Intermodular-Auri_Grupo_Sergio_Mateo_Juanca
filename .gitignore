@@ -1,0 +1,22 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+extensions/
+
+# Node.js / web general
+node_modules/
+dist/
+build/
+
+# Temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Archivos compilados
+*.class
